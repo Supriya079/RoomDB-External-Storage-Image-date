@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:id="@+id/cardImgBill"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cardcategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="category"/>
+
+            <TextView
+                android:id="@+id/cardobjname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="objname"/>
+
+            <TextView
+                android:id="@+id/carddescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="description"/>
+
+            <TextView
+                android:id="@+id/cardlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="location"/>
+
+            <TextView
+                android:id="@+id/cardBillDOB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOB"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
